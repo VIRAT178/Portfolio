@@ -5,6 +5,14 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1rem',
+        lg: '2rem',
+      },
+    },
     extend: {
       colors: {
         'ink-black': {

@@ -111,8 +111,8 @@ export default function Contact() {
         animate={{ opacity: 0.3 }}
         transition={{ duration: 1 }}
       >
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent rounded-full mix-blend-screen filter blur-3xl" />
-        <div className="absolute top-0 left-0 w-96 h-96 bg-accent-secondary rounded-full mix-blend-screen filter blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 md:w-96 md:h-96 bg-accent rounded-full mix-blend-screen filter blur-3xl" />
+        <div className="absolute top-0 left-0 w-72 h-72 md:w-96 md:h-96 bg-accent-secondary rounded-full mix-blend-screen filter blur-3xl" />
       </motion.div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">

@@ -42,8 +42,8 @@ export default function Hero() {
         animate={{ opacity: 0.3 }}
         transition={{ duration: 1 }}
       >
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent rounded-full mix-blend-screen filter blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent-secondary rounded-full mix-blend-screen filter blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-72 h-72 md:w-96 md:h-96 bg-accent rounded-full mix-blend-screen filter blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-72 h-72 md:w-96 md:h-96 bg-accent-secondary rounded-full mix-blend-screen filter blur-3xl" />
       </motion.div>
 
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">

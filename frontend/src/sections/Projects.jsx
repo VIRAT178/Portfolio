@@ -113,7 +113,7 @@ export default function Projects() {
                 {/* Image/Visual */}
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  className="relative h-80 rounded-lg overflow-hidden glass-effect border border-gray-700"
+                  className="relative h-56 md:h-80 rounded-lg overflow-hidden glass-effect border border-gray-700"
                 >
                   <div
                     className="w-full h-full flex items-center justify-center"

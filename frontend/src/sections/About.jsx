@@ -83,8 +83,8 @@ export default function About() {
           {/* Right - Stats & Info Cards */}
           <motion.div variants={itemVariants} className="space-y-4">
             <div className="flex items-center justify-center mb-6">
-              <div className="relative w-96 h-auto rounded-xl overflow-hidden shadow-2xl border border-gray-700">
-                <img src="/Copilot_20260514_211425.png" alt="Vishal portrait" className="w-full h-full object-cover" />
+              <div className="relative w-56 md:w-96 h-auto rounded-xl overflow-hidden shadow-2xl border border-gray-700 max-w-full">
+                <img src="/Copilot_20260514_211425.png" alt="Vishal portrait" className="w-full h-auto object-cover block" />
               </div>
             </div>
             {/* Card 1 */}
