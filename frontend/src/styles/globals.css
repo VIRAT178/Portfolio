@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -95,7 +93,7 @@ body::after {
   }
 }
 
-/* Grid Pattern Background */
+/* Grid Pattern Background and base body styling */
 body {
   position: relative;
   background: 
@@ -103,31 +101,29 @@ body {
     linear-gradient(90deg, rgba(255, 214, 10, 0.02) 1px, transparent 1px);
   background-size: 50px 50px;
   background-attachment: fixed;
-}
-
-body {
   font-family: 'Inter', sans-serif;
   background-color: #000814;
   color: #ffffff;
   overflow-x: hidden;
 }
 
-/* Custom Scrollbar */
+/* Scrollbar Enhancement (single consolidated definition) */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #000814;
+  background: linear-gradient(180deg, rgba(0, 8, 20, 0.5), rgba(0, 29, 61, 0.5));
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffd60a;
-  border-radius: 5px;
+  background: linear-gradient(180deg, #ffd60a, #ffc300);
+  border-radius: 6px;
+  border: 2px solid rgba(0, 8, 20, 0.5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffcf33;
+  background: linear-gradient(180deg, #ffde3b, #ffdb66);
 }
 
 /* Selection */
